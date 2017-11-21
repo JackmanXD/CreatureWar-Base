@@ -6,8 +6,8 @@
  * regardless of what kind of parasitic scum they were going in."
  * -Master Sergeant Farell
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Jack Henry Protopapa
+ * @version V0.01
  */
 public class Creature
 {
