@@ -1,6 +1,8 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Creature()
+comment0.target=Creature
+comment0.text=\r\n\ "Battle\ is\ the\ Great\ Redeemer.\ It\ is\ the\ fiery\ crucible\ \r\n\ in\ which\ true\ heroes\ are\ forged.\ \r\n\ The\ one\ place\ where\ all\ men\ truly\ share\ the\ same\ rank,\ \r\n\ regardless\ of\ what\ kind\ of\ parasitic\ scum\ they\ were\ going\ in."\r\n\ -Master\ Sergeant\ Farell\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-comment1.target=int\ damage()
-numComments=2
+comment1.target=Creature()
+comment2.params=
+comment2.target=int\ damage()
+numComments=3
