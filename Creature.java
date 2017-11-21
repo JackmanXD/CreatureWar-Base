@@ -7,8 +7,14 @@
  * the creature is alive or dead. The creature is also responsible for calculating
  * damage delivered based on the creature's strength (1 to str) 
  * 
- * @author (your name here)
- * @version (version number or date here)
+ *  "Battle is the Great Redeemer. 
+ *  It is the fiery crucible in which true heroes are forged. 
+ *  The one place where all men truly share the same rank, 
+ *  regardless of what kind of parasitic scum they were going in." 
+ *  - Master Sergeant Farell
+ * 
+ * @author Jack Henry Protopapa
+ * @version 0.01
  */
 public abstract class Creature
 {
