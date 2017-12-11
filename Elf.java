@@ -1,10 +1,10 @@
 
 
 /**
- * Write a description of class Human here.
+ * Write a description of class Elf here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Jack Henry Protopapa
+ * @version v0.1
  */
 public class Elf extends Creature
 {
@@ -15,7 +15,7 @@ public class Elf extends Creature
     private static final int MIN_ELF_STR = 5;
 
     /**
-     * Constructor for objects of class Human
+     * Constructor for objects of class Elf
      */
     public Elf()
     {

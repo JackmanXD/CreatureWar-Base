@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=BattleGround
+comment0.text=\r\n\ This\ is\ where\ the\ magic\ happens.\ \ \r\n\ Armies\ are\ assembled\ and\ pitted\ against\ each\ other\ \r\n\ until\ the\ battle\ is\ over,\ which\ has\ either\ one\ side\ winning,\ or\ a\ draw.\r\n\r\n\ @author\ Jack\ Henry\ Protopapa\r\n\ @version\ v0.1\r\n
+comment1.params=
+comment1.target=BattleGround()
+comment2.params=
+comment2.target=Creature\ addTroop()
+comment3.params=
+comment3.target=void\ createSides()
+comment4.params=
+comment4.target=void\ newWar()
+numComments=5

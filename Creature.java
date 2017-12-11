@@ -1,3 +1,4 @@
+import java.util.Random;
 
 /**
  * Abstract class Creature - 
@@ -18,18 +19,20 @@
  */
 public abstract class Creature
 {
+    protected static Random rand = new Random();
+    
     private int str;
     private int max_hp;
     private int hp;
     
-    /**
-     * default constructor - this should never actually run
-     */
-    public Creature (){
-        str=10;
-        hp=10;
-        max_hp = hp;
-    }
+    // /**
+     // * default constructor - this should never actually run
+     // */
+    // public Creature (){
+        // str=10;
+        // hp=10;
+        // max_hp = hp;
+    // }
     
     /**
      * Create a creature with a given strength and hit point level. 
@@ -39,8 +42,9 @@ public abstract class Creature
      * @param str the strength of the creature, used to calculate damage
      * @param hp the health of the creature at the start of the simulation, and the current health levels during battle
      */
-    public Creature (int str, int hp) {
-       //implement this
+    public Creature (int s, int h) {
+       hp = h;
+       str = s;
     }
     
     
@@ -49,8 +53,7 @@ public abstract class Creature
      * @return a value between 1 and str to be used to cause damage to another creature
      */
     public int damage(){
-        // implement this
-        return 0;
+        return rand.nextInt(str) + 1;
     }
     
     
@@ -60,7 +63,7 @@ public abstract class Creature
      */
     public boolean isAlive() {
         //implement this
-        return false; //change this
+        return hp > 0;
     }
     
     /**
@@ -69,7 +72,7 @@ public abstract class Creature
      */
     public boolean isDead() {
         //implement this
-        return false; //change this
+        return hp <= 0;
     }
     
     
@@ -79,7 +82,8 @@ public abstract class Creature
      * @param damage value to remove from hit point count
      */
     public void takeDamage(int damage) {
-        // implement this
+        hp = hp - damage;
+        //health -= damage;
     }
     
 }
