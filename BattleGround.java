@@ -49,11 +49,6 @@ public class BattleGround
             int Evil = 0; // evil army
             
             while(Good < troopCount && Evil < troopCount){
-            
-                System.out.println("The Eternal Conflict begins anew. Awaken champions, and fufill your DESTINY!!!!!");
-                System.out.println("");
-                System.out.println("");
-                
                 good.get(Good).takeDamage(evil.get(Evil).damage()); //good army takes damage
                 
                 System.out.println("");
@@ -85,12 +80,15 @@ public class BattleGround
             System.out.println("The battle draws to a close...");
             if(Good < Evil){
                 System.out.println("The forces of light have triumphed today, but how long will peace last?");
+                System.out.println("");
             }
             else if(Evil < Good){
                 System.out.println("Darkness has consmed all hope in this land, but their reign will not last...");
+                System.out.println("");
             }
             else{
             System.out.println("The balance holds, at least until the next inevatable conflict...");
+            System.out.println("");
             }
         }
 }

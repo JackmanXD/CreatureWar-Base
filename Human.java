@@ -13,7 +13,8 @@ public class Human extends Creature
     private static final int MIN_HUMAN_HP = 5;
     private static final int MAX_HUMAN_STR = 20;
     private static final int MIN_HUMAN_STR = 5;
-
+    
+    
     /**
      * Constructor for objects of class Human
      */

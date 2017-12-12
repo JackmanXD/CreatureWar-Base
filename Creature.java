@@ -34,6 +34,11 @@ public abstract class Creature
         // max_hp = hp;
     // }
     
+    //public String name(){
+        //return name;
+    //}
+    
+    
     /**
      * Create a creature with a given strength and hit point level. 
      * Store max hitpoints to allow for healing to be implemented later
